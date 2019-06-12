@@ -2,7 +2,7 @@ language: csharp
 solution: SvnToGit.sln
 addons:
   sonarcloud:
-    organization: " proff-github" # the key of the org you chose at step #3
+    organization: "proff-github" # the key of the org you chose at step #3
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
